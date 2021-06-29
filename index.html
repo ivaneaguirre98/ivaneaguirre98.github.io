@@ -7,14 +7,135 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Ivan E. Aguirre | Portfolio</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- navbar -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
+
+    <!-- hero section -->
+    <div class="container-fluid heroParentContainer">
+      <div class="heroContainer">
+        <div class="leftSideContainer">
+          <div class="myName"><h1>Ivan E. Aguirre</h1></div>
+          <div class="myTitle"><h2>Front-End/WordPress Developer</h2></div>
+          <button type="button" class="btn btn-outline-primary btn-lg">View my Work</button>
+        </div>
+        <div class="rightSideContainer">
+          <img src="images/web development.svg" class="webDevSVG" alt="">
+        </div>
+      </div>
+    </div>
+
+      <!-- separator -->
+    <div class="seperatorContainer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF5A5F" fill-opacity="1" d="M0,224L80,202.7C160,181,320,139,480,149.3C640,160,800,224,960,218.7C1120,213,1280,139,1360,101.3L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    </div>
+    <!-- aboutSection -->
+    <div class="container-fluid aboutMeContainer">
+      <div class="row align-items-center aboutMeRow">
+        <div class="col aboutMeColumn">
+          <h2>About Me</h2>
+          <p>I am a web designer/developer out of Houston, Texas. I graduated from Texas A&M University with a Bachelor of Arts in Telecommunication Media Studies and a minor in Game Design and Development. Throughout my career, I have collaborated with various marketing teams to design and develop mutiple websites and e-commerce stores. Although I have developed many websites, I am constantly looking to improve upon my skillset and add more projects to my resume. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottomSeperatorContainer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF5A5F" fill-opacity="1" d="M0,64L40,64C80,64,160,64,240,90.7C320,117,400,171,480,176C560,181,640,139,720,138.7C800,139,880,181,960,181.3C1040,181,1120,139,1200,117.3C1280,96,1360,96,1400,96L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    </div>
+    <!-- Skills Section -->
+    <!-- <div class="container-fluid skillsContainer">
+      <h2>Skills</h2>
+      <div class="row align-items-center">
+        <div class="col skillColumn">
+          Web Development
+        </div>
+        <div class="col skillColumn">
+          Technology
+        </div>
+        <div class="col skillColumn">
+          Other Skills
+        </div>
+      </div>
+    </div> -->
+    
+    
+
+    <!-- projectColumns -->
+    <div class="container-fluid projectContainer">
+      <h2>Past Projects</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/MakeSafeTech_Logo" class="card-img-top projectImg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Make Safe Tech</h5>
+                <p class="card-text">Led the redesign and development of their website, intergrated a new payment gateway and membership tracking system.</p>
+                <button type="button" class="btn btn-primary">Visit Website</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Energy-Bionics_Blue_Circle-06.png" class="card-img-top projectImg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Energy Bionics</h5>
+                <p class="card-text">Collaborated with creative team and led the development of the website, additionally setup the e-commerce instance and payment gateway.</p>
+                <button type="button" class="btn btn-primary">Visit Website</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/FoldARLogo.jpg" class="card-img-top projectImg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">FoldAR</h5>
+                <p class="card-text">Intergrated ShipStation, HubSpot, and provided training to new shop managers on WooCommerce. </p>
+                <button type="button" class="btn btn-primary">Visit Website</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/cropped-SiteIconLogoOrange-7.png" class="card-img-top projectImg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sensytec</h5>
+                <p class="card-text">Led the development of their website, intergrated HubSpot and Google Analytics. Also facilitated the transfer of their website from AWS to A2Hosting servers.</p>
+                <button type="button" class="btn btn-primary">Visit Website</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/DSA-stacked-fullcolor-RGB.png" class="card-img-top projectImg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Division of Student Affairs</h5>
+                <p class="card-text">Revamped the front-end of their website,improved mobile responsiveness and user accessibility, and provided consulting to four departments within the division on their redesign efforts.</p>
+                <button type="button" class="btn btn-primary">Visit Website</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://tx-tactical.com/wp-content/uploads/2021/01/TXTactical-03.png" class="card-img-top projectImg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Axle Box Innovations</h5>
+                <button type="button" class="btn btn-primary">Visit Website</button>
+                <p class="card-text">Oversaw the maintenance of the 12 websites under their portfolio while also providing contract work to clients.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     -->
